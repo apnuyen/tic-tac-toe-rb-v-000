@@ -93,6 +93,6 @@ def play(board)
     puts "Congratulations #{winner(board)}!"
   else
     !won?(board) && full?(board)
-    puts "Draw!"
+    puts "Cats Game!"
   end
 end
